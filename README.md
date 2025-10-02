@@ -188,7 +188,7 @@ AVERAGE(AutomobileRaw[horsepower])
 ```
 - Filters/Slicers Added: Make, Fuel System, Aspiration, and  Body Style.
 
-### Analysis:
+## Analysis:
 
 The analysis revealed distinct patterns across price, efficiency, and performance.
 
