@@ -2,11 +2,13 @@
 
 ![](https://github.com/Makindetitilayo/Automobile-Sales-Analysis/blob/main/Cover%20Image.png)
 
+
 ## Introduction:
 
 The goal of this project was to perform a detailed analysis of an automobile dataset by cleaning and preparing the data in Microsoft SQL Server, then building an interactive dashboard in Power BI. 
 
 The analysis focuses on pricing, fuel efficiency, performance, and body style trends in the automobile market. This report documents the step-by-step process, including SQL queries written, the design of KPIs in DAX, and the final dashboard.
+
 
 ## Key Metrics:
 
@@ -19,6 +21,7 @@ The following metrics were selected as the foundation for the analysis:
 - Price per Horsepower by Make to evaluate performance value.
 - Car Count by Body Style and Fuel Type to study categorical distributions.
 
+
 ## Skills Demonstrated:
 
 This project highlighted the following skills:
@@ -29,6 +32,7 @@ This project highlighted the following skills:
 - Power BI: Creating DAX measures, visualizations, filters, slicers, and interactive dashboards.
 - Analytical Thinking: Selecting meaningful metrics to balance affordability, efficiency, and performance insights.
 - Storytelling with Data: Presenting technical results in an accessible and visually appealing dashboard.
+
 
 ## Data Preparation:
 
@@ -41,6 +45,7 @@ Cleaning:
 - Replaced or retained NULL values as needed.
 - Prevented division by zero in calculations using NULLIF().
 - Verified that there are no duplicates in primary fields.
+
 
 ## SQL Queries for Metrics
 
@@ -166,6 +171,7 @@ ORDER BY
 	price_per_horsepower ASC;
 ```
 
+
 ## Visualisation & Analysis:
 ![](https://github.com/Makindetitilayo/Automobile-Sales-Analysis/blob/main/Screenshot%202025-10-02%20002001.png)
 
@@ -187,6 +193,7 @@ AVERAGEX(AutomobileRaw, (AutomobileRaw[city_mpg] + AutomobileRaw[highway_mpg]) /
 AVERAGE(AutomobileRaw[horsepower])
 ```
 - Filters/Slicers Added: Make, Fuel System, Aspiration, and  Body Style.
+
 
 ## Analysis:
 
@@ -212,6 +219,7 @@ Mercedes-Benz, BMW, Jaguar, Porsche, Peugeot, Audi, and Volvo record the highest
 
 ### Car Count by Body Style and MPG: 
 Sedans and hatchbacks not only dominate in sheer volume but also align with higher average fuel efficiency. In contrast, wagons, hardtops, and convertibles are fewer in number and tend to be associated with lower MPG, further distinguishing mass-market from niche offerings.
+
 
 ## Recommendation & Conclusion:
 
